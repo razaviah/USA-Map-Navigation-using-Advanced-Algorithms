@@ -26,3 +26,19 @@ The project evaluation focused on:
 - **Output Functionality:** Ensured the implementation outputs the total distance and a list of all locations on the path between the specified points of origin and destination.
 - **Testing and Validation:** Conducted rigorous testing of the implemented algorithms, ensuring accurate outputs.
 - **Heuristic Analysis for A-Star Search:** Incorporated a heuristic file (`heuristic_Frankfort.txt`) in the A-Star search algorithm to optimize the search process.
+
+## How to Run
+After clloning this repository, you should run as follows:
+
+find_path.py [ucs/bfs/dfs/astar] [input_file.txt] [point_of_origin] [point_of_destination] [heuristic_file.txt]*
+
+- **[ucs/bfs/dfs/astar]:** Choose the algorithm that you want to run (required)
+- **[input_file.txt]:** Provide the path to the input file (required)
+- **[point_of_origin]:** Provide the point of origin (required)
+- **[point_of_destination]:** Provide the point of destination (required)
+- **[heuristic_file.txt]:** Provide the heuristic file if available (optional)
+
+Sample command that you can run with the existing input and heuristic files:
+- find_path.py ucs input_file1.txt Columbia WashingtonDC
+- find_path.py ucs input_file1.txt Boise Nashville
+- find_path.py astar input_file1.txt Columbia Frankfort heuristic_Frankfort.txt
