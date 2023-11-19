@@ -28,7 +28,7 @@ The project evaluation focused on:
 - **Heuristic Analysis for A-Star Search:** Incorporated a heuristic file (`heuristic_Frankfort.txt`) in the A-Star search algorithm to optimize the search process.
 
 ## How to Run
-After clloning this repository, you should run as follows:
+After cloning this repository, you should run as follows:
 
 find_path.py [ucs/bfs/dfs/astar] [input_file.txt] [point_of_origin] [point_of_destination] [heuristic_file.txt]*
 
